@@ -6,13 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ani+</title>
     <link rel="stylesheet" href="base.css">
+    <style>
+        table thead th {
+            background-color: forestgreen;
+            color: white;
+        }
+        table tr:hover td {
+            background-color: aquamarine;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
-            <h2>Menu</h2>
+           <h2>Menu</h2>
             <ul>
-                <li><a href="#index.hmtl">Pagina Principal</a></li>
+                <li><a href="/Desafio 2/index.html">Pagina Principal</a></li>
                 <br>
                 <li><a href="/Desafio 2/sobreclinica.html"target="_blank">Sobre a clínica</a></li>
                 <br>
@@ -21,30 +30,67 @@
                 <li><a href="/Desafio 2/contato.html"target="_blank">Contato</a></li>
             </ul>
         </div>
-        </div>    
-    </div>
 
-    <div class="main">
-        <div class="header">
-            <h1>Clínica Ani+</h1>
-                <h4>Onde seu pet é <strong>MAIS</strong></h4>
-        </div>
+        <div class="main">
+            <div class="header">
+                <img src="/Desafio 2/header_horario.jpg" width="200px"/>
+                <h1>Clínica Ani+</h1>
+                    <h4>Onde seu pet é <strong>MAIS</strong></h4>
+            </div>
     
-    <div class="content">
-        <div class="" allign="center">
-
-            
+            <div class="content">
+                <div class="descricao" allign="center">
+                    <h2>Nossos horarios de Atendimento</h2>
+                    <table summary="Horários" border="1" width="250" cellspacing="0" cellpadding="10" allign="center">
+                        <tr>
+                            <th title="Horarios">Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                        </tr>
+                        <tr>
+                            <td>Clinica Geral</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                            <td>24h</td>
+                        </tr>
+                        <tr>
+                            <td>Clínica de Silvestres</td>
+                            <td>9h-18h</td>
+                            <td>9h-18h</td>
+                            <td>9h-18h</td>
+                        </tr>
+                        <tr>
+                            <td>Hematologia</td>
+                            <td>14h-19h</td>
+                            <td>12h-17h</td>
+                            <td> -- </td>
+                        </tr>
+                        <tr>
+                            <td>Ortopedia</td>
+                            <td>8h-14h</td>
+                            <td>9h-12h</td>
+                            <td> --- </td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>14h-19h</td>
+                            <td>14h-18h</td>
+                            <td> -- </td>
+                        </tr>
+                    </table>     
+                    
+                </div>   
+            </div>
+    
+            <div class="footer">
+                <br>
+                Venha nos visitar:
+                <a href="#mapa"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a>
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.46026952882!2d-47.068035249999994!3d-22.82597925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c14d45afc8c9%3A0xc1285d3905ab5ea5!2sBiblioteca%20Central%20Cesar%20Lattes!5e0!3m2!1spt-BR!2sbr!4v1740160373704!5m2!1spt-BR!2sbr" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            </div>
         </div>
     </div>
-
-    <div class="footer">
-        <br>
-        Venha nos visitar:
-        <a href="#mapa"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a>
-        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14709.46026952882!2d-47.068035249999994!3d-22.82597925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8c14d45afc8c9%3A0xc1285d3905ab5ea5!2sBiblioteca%20Central%20Cesar%20Lattes!5e0!3m2!1spt-BR!2sbr!4v1740160373704!5m2!1spt-BR!2sbr" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-    </div>
-</div>
-</div>
-
+    
 </body>
 </html>
