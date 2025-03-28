@@ -36,7 +36,21 @@ a { color:blue; text-decoration: none;}
 }
 figure {
     text-align: center;
+}    
+.caracteristicas {
+    text-align: center;
 }
-.birds{
+#birds {
     display: flex;
+    vertical-align: middle;
+    padding: 50px;
+}
+.ave1 {
+    border: 0;
+    height: auto;
+    aspect-ratio: auto 280 / 210;
+}
+.ave2 {
+    border: 0;
+    height: 280px;
 }
