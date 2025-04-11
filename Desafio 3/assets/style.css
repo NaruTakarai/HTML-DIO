@@ -6,6 +6,10 @@ body, html {
 ul { list-style: none; padding-left: 5px; }
 a { color:blue; text-decoration: none;}
 
+#logo {
+    float: left;
+    align-content: center;
+}
 .bar {
     background-color: #f9f9fb;
     padding:15px;
@@ -45,12 +49,19 @@ figure {
     vertical-align: middle;
     padding: 50px;
 }
-.ave1 {
+#ave1 {
     border: 0;
     height: auto;
     aspect-ratio: auto 280 / 210;
 }
-.ave2 {
+#ave2 {
     border: 0;
     height: 280px;
+}
+[title] {
+    display: flex;
+    text-align: center;
+   
+   
+    
 }
